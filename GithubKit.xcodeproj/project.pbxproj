@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF248F421F9EDD0D00330379 /* PageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F401F9ED68C00330379 /* PageInfo.swift */; };
+		CF248F431F9EDD0E00330379 /* PageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F401F9ED68C00330379 /* PageInfo.swift */; };
+		CF248F441F9EDD1300330379 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F411F9ED68C00330379 /* Response.swift */; };
+		CF248F451F9EDD1400330379 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F411F9ED68C00330379 /* Response.swift */; };
+		CF248F471F9EDDB500330379 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F461F9EDDB500330379 /* Repository.swift */; };
+		CF248F481F9EDEE300330379 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F461F9EDDB500330379 /* Repository.swift */; };
+		CF248F4A1F9EE3AF00330379 /* Wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F491F9EE3AF00330379 /* Wrappers.swift */; };
+		CF248F4B1F9EE3B700330379 /* Wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F491F9EE3AF00330379 /* Wrappers.swift */; };
+		CF248F4E1F9EE62B00330379 /* DateFormatter.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F4D1F9EE62B00330379 /* DateFormatter.extension.swift */; };
+		CF248F4F1F9EE62B00330379 /* DateFormatter.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F4D1F9EE62B00330379 /* DateFormatter.extension.swift */; };
+		CF248F511F9EF33400330379 /* NSObject.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F501F9EF33400330379 /* NSObject.extension.swift */; };
+		CF248F521F9EF33400330379 /* NSObject.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F501F9EF33400330379 /* NSObject.extension.swift */; };
+		CF248F541F9F0BC200330379 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F531F9F0BC200330379 /* User.swift */; };
+		CF248F551F9F0BC200330379 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F531F9F0BC200330379 /* User.swift */; };
+		CF248F581F9F12BB00330379 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F571F9F12BB00330379 /* Request.swift */; };
+		CF248F591F9F12BB00330379 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F571F9F12BB00330379 /* Request.swift */; };
+		CF248F5B1F9F44F000330379 /* SearchUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F5A1F9F44F000330379 /* SearchUserRequest.swift */; };
+		CF248F5C1F9F44F000330379 /* SearchUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F5A1F9F44F000330379 /* SearchUserRequest.swift */; };
+		CF248F5E1F9F4E5F00330379 /* UserNodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */; };
+		CF248F5F1F9F4E5F00330379 /* UserNodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */; };
+		CF248F611F9F4E6C00330379 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F601F9F4E6C00330379 /* ApiSession.swift */; };
+		CF248F621F9F4E6C00330379 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F601F9F4E6C00330379 /* ApiSession.swift */; };
 		CFEF1AD71F9DA6F300D4D2F2 /* GithubKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF1ACD1F9DA6F300D4D2F2 /* GithubKit.framework */; };
 		CFEF1ADC1F9DA6F300D4D2F2 /* GithubKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF1ADB1F9DA6F300D4D2F2 /* GithubKitTests.swift */; };
 		CFEF1ADE1F9DA6F300D4D2F2 /* GithubKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEF1AD01F9DA6F300D4D2F2 /* GithubKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF248F401F9ED68C00330379 /* PageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInfo.swift; sourceTree = "<group>"; };
+		CF248F411F9ED68C00330379 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CF248F461F9EDDB500330379 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		CF248F491F9EE3AF00330379 /* Wrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrappers.swift; sourceTree = "<group>"; };
+		CF248F4D1F9EE62B00330379 /* DateFormatter.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.extension.swift; sourceTree = "<group>"; };
+		CF248F501F9EF33400330379 /* NSObject.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.extension.swift; sourceTree = "<group>"; };
+		CF248F531F9F0BC200330379 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CF248F571F9F12BB00330379 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CF248F5A1F9F44F000330379 /* SearchUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserRequest.swift; sourceTree = "<group>"; };
+		CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNodeRequest.swift; sourceTree = "<group>"; };
+		CF248F601F9F4E6C00330379 /* ApiSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSession.swift; sourceTree = "<group>"; };
 		CFEF1ACD1F9DA6F300D4D2F2 /* GithubKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GithubKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEF1AD01F9DA6F300D4D2F2 /* GithubKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubKit.h; sourceTree = "<group>"; };
 		CFEF1AD11F9DA6F300D4D2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +92,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF248F3D1F9ED65800330379 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CF248F4C1F9EE61600330379 /* Common */,
+				CF248F3E1F9ED67200330379 /* Core */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CF248F3E1F9ED67200330379 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CF248F601F9F4E6C00330379 /* ApiSession.swift */,
+				CF248F561F9F12AA00330379 /* Request */,
+				CF248F3F1F9ED67600330379 /* Response */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CF248F3F1F9ED67600330379 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				CF248F401F9ED68C00330379 /* PageInfo.swift */,
+				CF248F461F9EDDB500330379 /* Repository.swift */,
+				CF248F411F9ED68C00330379 /* Response.swift */,
+				CF248F531F9F0BC200330379 /* User.swift */,
+				CF248F491F9EE3AF00330379 /* Wrappers.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CF248F4C1F9EE61600330379 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CF248F4D1F9EE62B00330379 /* DateFormatter.extension.swift */,
+				CF248F501F9EF33400330379 /* NSObject.extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CF248F561F9F12AA00330379 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				CF248F571F9F12BB00330379 /* Request.swift */,
+				CF248F5A1F9F44F000330379 /* SearchUserRequest.swift */,
+				CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		CFEF1AC31F9DA6F300D4D2F2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +164,7 @@
 		CFEF1ACF1F9DA6F300D4D2F2 /* GithubKit */ = {
 			isa = PBXGroup;
 			children = (
+				CF248F3D1F9ED65800330379 /* Sources */,
 				CFEF1AD01F9DA6F300D4D2F2 /* GithubKit.h */,
 				CFEF1AD11F9DA6F300D4D2F2 /* Info.plist */,
 			);
@@ -239,6 +323,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF248F441F9EDD1300330379 /* Response.swift in Sources */,
+				CF248F581F9F12BB00330379 /* Request.swift in Sources */,
+				CF248F4A1F9EE3AF00330379 /* Wrappers.swift in Sources */,
+				CF248F421F9EDD0D00330379 /* PageInfo.swift in Sources */,
+				CF248F5E1F9F4E5F00330379 /* UserNodeRequest.swift in Sources */,
+				CF248F511F9EF33400330379 /* NSObject.extension.swift in Sources */,
+				CF248F4E1F9EE62B00330379 /* DateFormatter.extension.swift in Sources */,
+				CF248F471F9EDDB500330379 /* Repository.swift in Sources */,
+				CF248F541F9F0BC200330379 /* User.swift in Sources */,
+				CF248F5B1F9F44F000330379 /* SearchUserRequest.swift in Sources */,
+				CF248F611F9F4E6C00330379 /* ApiSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +341,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF248F5C1F9F44F000330379 /* SearchUserRequest.swift in Sources */,
+				CF248F431F9EDD0E00330379 /* PageInfo.swift in Sources */,
+				CF248F4B1F9EE3B700330379 /* Wrappers.swift in Sources */,
+				CF248F451F9EDD1400330379 /* Response.swift in Sources */,
+				CF248F521F9EF33400330379 /* NSObject.extension.swift in Sources */,
+				CF248F5F1F9F4E5F00330379 /* UserNodeRequest.swift in Sources */,
+				CF248F551F9F0BC200330379 /* User.swift in Sources */,
 				CFEF1ADC1F9DA6F300D4D2F2 /* GithubKitTests.swift in Sources */,
+				CF248F481F9EDEE300330379 /* Repository.swift in Sources */,
+				CF248F621F9F4E6C00330379 /* ApiSession.swift in Sources */,
+				CF248F591F9F12BB00330379 /* Request.swift in Sources */,
+				CF248F4F1F9EE62B00330379 /* DateFormatter.extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +538,7 @@
 		CFEF1AE51F9DA6F300D4D2F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W53PDR574;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
@@ -447,6 +554,7 @@
 		CFEF1AE61F9DA6F300D4D2F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W53PDR574;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
