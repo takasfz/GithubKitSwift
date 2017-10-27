@@ -9,6 +9,12 @@
 import Foundation
 
 extension DateFormatter {
+    static let `default` = DateFormatter().apply {
+        $0.locale = Locale(identifier: "en_US_POSIX")
+        $0.timeZone = TimeZone(secondsFromGMT: 0)
+        $0.dateFormat = "dd MMMM yyyy"
+    }
+
     static let ISO8601 = DateFormatter().apply {
         $0.locale = Locale(identifier: "en_US_POSIX")
         $0.timeZone = TimeZone(secondsFromGMT: 0)

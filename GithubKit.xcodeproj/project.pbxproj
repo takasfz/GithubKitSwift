@@ -29,6 +29,15 @@
 		CF248F5F1F9F4E5F00330379 /* UserNodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */; };
 		CF248F611F9F4E6C00330379 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F601F9F4E6C00330379 /* ApiSession.swift */; };
 		CF248F621F9F4E6C00330379 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F601F9F4E6C00330379 /* ApiSession.swift */; };
+		CF62B8BF1FA1AE7D0035AA0C /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8BE1FA1AE7D0035AA0C /* UserViewCell.swift */; };
+		CF62B8C11FA1AE8E0035AA0C /* UserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF62B8C01FA1AE8E0035AA0C /* UserViewCell.xib */; };
+		CF62B8C41FA1AF6A0035AA0C /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8C31FA1AF6A0035AA0C /* Nibable.swift */; };
+		CF62B8C61FA1AFD00035AA0C /* NSObjectProtocol.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8C51FA1AFD00035AA0C /* NSObjectProtocol.extension.swift */; };
+		CF62B8C81FA1C0DF0035AA0C /* UILabel.Octicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8C71FA1C0DF0035AA0C /* UILabel.Octicons.swift */; };
+		CF62B8CA1FA1C9890035AA0C /* Int.truncateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8C91FA1C9890035AA0C /* Int.truncateString.swift */; };
+		CF62B8CC1FA1E2A70035AA0C /* RepositoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8CB1FA1E2A70035AA0C /* RepositoryViewCell.swift */; };
+		CF62B8CE1FA1E30E0035AA0C /* RepositoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF62B8CD1FA1E30E0035AA0C /* RepositoryViewCell.xib */; };
+		CF65DE601FA2D2B200695E2A /* UIColor.hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65DE5F1FA2D2B200695E2A /* UIColor.hex.swift */; };
 		CFEF1AD71F9DA6F300D4D2F2 /* GithubKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF1ACD1F9DA6F300D4D2F2 /* GithubKit.framework */; };
 		CFEF1ADC1F9DA6F300D4D2F2 /* GithubKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF1ADB1F9DA6F300D4D2F2 /* GithubKitTests.swift */; };
 		CFEF1ADE1F9DA6F300D4D2F2 /* GithubKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEF1AD01F9DA6F300D4D2F2 /* GithubKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +68,15 @@
 		CF248F5A1F9F44F000330379 /* SearchUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserRequest.swift; sourceTree = "<group>"; };
 		CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNodeRequest.swift; sourceTree = "<group>"; };
 		CF248F601F9F4E6C00330379 /* ApiSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSession.swift; sourceTree = "<group>"; };
+		CF62B8BE1FA1AE7D0035AA0C /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
+		CF62B8C01FA1AE8E0035AA0C /* UserViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewCell.xib; sourceTree = "<group>"; };
+		CF62B8C31FA1AF6A0035AA0C /* Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
+		CF62B8C51FA1AFD00035AA0C /* NSObjectProtocol.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocol.extension.swift; sourceTree = "<group>"; };
+		CF62B8C71FA1C0DF0035AA0C /* UILabel.Octicons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.Octicons.swift; sourceTree = "<group>"; };
+		CF62B8C91FA1C9890035AA0C /* Int.truncateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.truncateString.swift; sourceTree = "<group>"; };
+		CF62B8CB1FA1E2A70035AA0C /* RepositoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewCell.swift; sourceTree = "<group>"; };
+		CF62B8CD1FA1E30E0035AA0C /* RepositoryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryViewCell.xib; sourceTree = "<group>"; };
+		CF65DE5F1FA2D2B200695E2A /* UIColor.hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.hex.swift; sourceTree = "<group>"; };
 		CFEF1ACD1F9DA6F300D4D2F2 /* GithubKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GithubKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEF1AD01F9DA6F300D4D2F2 /* GithubKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubKit.h; sourceTree = "<group>"; };
 		CFEF1AD11F9DA6F300D4D2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				CF248F4C1F9EE61600330379 /* Common */,
+				CF62B8BD1FA1AE5D0035AA0C /* UI */,
 				CF248F3E1F9ED67200330379 /* Core */,
 			);
 			path = Sources;
@@ -128,6 +147,7 @@
 			children = (
 				CF248F4D1F9EE62B00330379 /* DateFormatter.extension.swift */,
 				CF248F501F9EF33400330379 /* NSObject.extension.swift */,
+				CF62B8C51FA1AFD00035AA0C /* NSObjectProtocol.extension.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -140,6 +160,29 @@
 				CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */,
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		CF62B8BD1FA1AE5D0035AA0C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CF62B8C21FA1AF050035AA0C /* Extension */,
+				CF62B8BE1FA1AE7D0035AA0C /* UserViewCell.swift */,
+				CF62B8C01FA1AE8E0035AA0C /* UserViewCell.xib */,
+				CF62B8CB1FA1E2A70035AA0C /* RepositoryViewCell.swift */,
+				CF62B8CD1FA1E30E0035AA0C /* RepositoryViewCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CF62B8C21FA1AF050035AA0C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF62B8C31FA1AF6A0035AA0C /* Nibable.swift */,
+				CF62B8C71FA1C0DF0035AA0C /* UILabel.Octicons.swift */,
+				CF62B8C91FA1C9890035AA0C /* Int.truncateString.swift */,
+				CF65DE5F1FA2D2B200695E2A /* UIColor.hex.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		CFEF1AC31F9DA6F300D4D2F2 = {
@@ -285,6 +328,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF62B8CE1FA1E30E0035AA0C /* RepositoryViewCell.xib in Resources */,
+				CF62B8C11FA1AE8E0035AA0C /* UserViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,12 +370,19 @@
 			files = (
 				CF248F441F9EDD1300330379 /* Response.swift in Sources */,
 				CF248F581F9F12BB00330379 /* Request.swift in Sources */,
+				CF62B8C81FA1C0DF0035AA0C /* UILabel.Octicons.swift in Sources */,
 				CF248F4A1F9EE3AF00330379 /* Wrappers.swift in Sources */,
+				CF62B8BF1FA1AE7D0035AA0C /* UserViewCell.swift in Sources */,
+				CF62B8C61FA1AFD00035AA0C /* NSObjectProtocol.extension.swift in Sources */,
+				CF62B8CC1FA1E2A70035AA0C /* RepositoryViewCell.swift in Sources */,
 				CF248F421F9EDD0D00330379 /* PageInfo.swift in Sources */,
 				CF248F5E1F9F4E5F00330379 /* UserNodeRequest.swift in Sources */,
+				CF65DE601FA2D2B200695E2A /* UIColor.hex.swift in Sources */,
 				CF248F511F9EF33400330379 /* NSObject.extension.swift in Sources */,
+				CF62B8CA1FA1C9890035AA0C /* Int.truncateString.swift in Sources */,
 				CF248F4E1F9EE62B00330379 /* DateFormatter.extension.swift in Sources */,
 				CF248F471F9EDDB500330379 /* Repository.swift in Sources */,
+				CF62B8C41FA1AF6A0035AA0C /* Nibable.swift in Sources */,
 				CF248F541F9F0BC200330379 /* User.swift in Sources */,
 				CF248F5B1F9F44F000330379 /* SearchUserRequest.swift in Sources */,
 				CF248F611F9F4E6C00330379 /* ApiSession.swift in Sources */,
