@@ -29,6 +29,7 @@
 		CF248F5F1F9F4E5F00330379 /* UserNodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */; };
 		CF248F611F9F4E6C00330379 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F601F9F4E6C00330379 /* ApiSession.swift */; };
 		CF248F621F9F4E6C00330379 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF248F601F9F4E6C00330379 /* ApiSession.swift */; };
+		CF2668511FA306FF004080EE /* UITableView.Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2668501FA306FF004080EE /* UITableView.Nibable.swift */; };
 		CF62B8BF1FA1AE7D0035AA0C /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8BE1FA1AE7D0035AA0C /* UserViewCell.swift */; };
 		CF62B8C11FA1AE8E0035AA0C /* UserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF62B8C01FA1AE8E0035AA0C /* UserViewCell.xib */; };
 		CF62B8C41FA1AF6A0035AA0C /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62B8C31FA1AF6A0035AA0C /* Nibable.swift */; };
@@ -68,6 +69,7 @@
 		CF248F5A1F9F44F000330379 /* SearchUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserRequest.swift; sourceTree = "<group>"; };
 		CF248F5D1F9F4E5F00330379 /* UserNodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNodeRequest.swift; sourceTree = "<group>"; };
 		CF248F601F9F4E6C00330379 /* ApiSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSession.swift; sourceTree = "<group>"; };
+		CF2668501FA306FF004080EE /* UITableView.Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.Nibable.swift; sourceTree = "<group>"; };
 		CF62B8BE1FA1AE7D0035AA0C /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
 		CF62B8C01FA1AE8E0035AA0C /* UserViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewCell.xib; sourceTree = "<group>"; };
 		CF62B8C31FA1AF6A0035AA0C /* Nibable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				CF62B8C71FA1C0DF0035AA0C /* UILabel.Octicons.swift */,
 				CF62B8C91FA1C9890035AA0C /* Int.truncateString.swift */,
 				CF65DE5F1FA2D2B200695E2A /* UIColor.hex.swift */,
+				CF2668501FA306FF004080EE /* UITableView.Nibable.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				CF62B8C81FA1C0DF0035AA0C /* UILabel.Octicons.swift in Sources */,
 				CF248F4A1F9EE3AF00330379 /* Wrappers.swift in Sources */,
 				CF62B8BF1FA1AE7D0035AA0C /* UserViewCell.swift in Sources */,
+				CF2668511FA306FF004080EE /* UITableView.Nibable.swift in Sources */,
 				CF62B8C61FA1AFD00035AA0C /* NSObjectProtocol.extension.swift in Sources */,
 				CF62B8CC1FA1E2A70035AA0C /* RepositoryViewCell.swift in Sources */,
 				CF248F421F9EDD0D00330379 /* PageInfo.swift in Sources */,
